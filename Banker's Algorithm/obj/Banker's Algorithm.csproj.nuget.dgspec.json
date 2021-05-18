@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj": {}
+    "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\The_Banker_Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj": {}
   },
   "projects": {
-    "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj": {
+    "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\The_Banker_Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj",
+        "projectUniqueName": "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\The_Banker_Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj",
         "projectName": "Banker's Algorithm",
-        "projectPath": "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj",
+        "projectPath": "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\The_Banker_Algorithm\\Banker's Algorithm\\Banker's Algorithm.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\Banker's Algorithm\\obj\\",
+        "outputPath": "F:\\FOE-ASU\\3rd\\2nd\\OS\\Assignment\\Banker's Algorithm\\The_Banker_Algorithm\\Banker's Algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
