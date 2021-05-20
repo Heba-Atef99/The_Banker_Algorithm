@@ -38,7 +38,7 @@ namespace Banker_s_Algorithm
                 }
             }
 
-            Console.WriteLine("\nDo you want to know the safe state? (y/n) ");
+            Console.WriteLine("\nDo you want to know the safe state? (answer with y/n) ");
             if (Console.ReadLine() == "y")
             {
                 int[] output = new int[n];
@@ -59,8 +59,8 @@ namespace Banker_s_Algorithm
 
                     if (Resource[0] >= n)
                     {
-                        Console.WriteLine("Invalid Process ID");
-                        return 1;
+                        Console.WriteLine("Invalid Process ID, you can only enter a process id up to {0}", n - 1);
+                        continue;
                     }
 
                     for (int i = 0; i < m; i++)
@@ -118,7 +118,7 @@ namespace Banker_s_Algorithm
             {
                 if (Finish[i] == 0)
                 {
-                    Console.WriteLine("No");
+                    Console.WriteLine("\nNo, This will not result in a safe state");
                     return false;
                 }
             }
@@ -142,13 +142,13 @@ namespace Banker_s_Algorithm
                     }
                     else
                     {
-                        Console.WriteLine("\nNo");
+                        Console.WriteLine("\nNo, This will not result in a safe state");
                         return;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Error, process has exceeded its maximum claim");
+                    Console.WriteLine("\nError, process has exceeded its maximum claim for resource {0} as it should be less than or equal {1}", i - 1, Need[Resource[0], i - 1]);
                     return;
                 }
 
@@ -162,7 +162,7 @@ namespace Banker_s_Algorithm
         {
 
             if (req != -1)
-                Console.Write("Yes request can be granted with safe state , Safe state <");
+                Console.Write("Yes request can be granted with safe state , Safe state <P{0}req,", req);
 
             else
                 Console.Write("Yes, Safe state <");
@@ -170,14 +170,10 @@ namespace Banker_s_Algorithm
             for (int i = 0; i < output.Length; i++)
             {
 
-                if (req == output[i]) Console.Write("P{0}req", output[i]);
-
-                else
-                    Console.Write("P{0}", output[i]);
+                Console.Write("P{0}", output[i]);
 
                 if (i != output.Length - 1)
                     Console.Write(",");
-
             }
             Console.Write(">\n");
         }
